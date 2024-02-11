@@ -68,3 +68,71 @@ describe('employees', function() {
     });
   });
 });
+
+
+function updateEmployeeWithKeyAndValue() {
+        employee["name"] = "Sam"
+}
+        const employee = {
+            name: "Sam"
+          }
+        return employee;
+
+function updateEmployeeWithKeyAndValue() {
+     
+      const employees = {
+        name: "Sam"
+      }
+    employees["streetAddress"] = "11 Broadway";
+        return employees;
+    }
+
+function destructivelyUpdateEmployeeWithKeyAndValue() {
+      const employees = {
+        name: "Sam",
+        streetAddress: "11 Broadway"
+      }
+      employee.streetAddress="12 Broadway";
+        return employee;
+}
+
+function deleteFromEmployeeByKey() {
+      const employees = {
+        name: "Sam",
+        streetAddress: "12 Broadway"
+      }
+      delete employee.name;
+      return employee;
+}
+
+function deleteFromEmployeeByKey() {
+  const employees = {
+    name: "Sam",
+    streetAddress: "12 Broadway"
+  }
+    const newEmployee = [];
+      employees.name = [];
+    return newEmployee;
+}
+
+function destructivelyDeleteFromEmployeeByKey() {
+  const employees = {
+    name: "Sam",
+    streetAddress: "12 Broadway"
+  }
+    newEmployee = [];
+    delete newEmployee.name;
+    return newEmployee;
+}
+
+function destructivelyDeleteFromEmployeeByKey() {
+  const employees = {
+    name: "Sam",
+    streetAddress: "12 Broadway"
+  }
+  delete employee.name;
+
+    
+    return employee;
+
+}
